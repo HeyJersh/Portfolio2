@@ -1,0 +1,25 @@
+
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+    border: 5px solid #222222;
+}
+
+section#latest {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
