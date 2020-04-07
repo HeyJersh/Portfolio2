@@ -1,41 +1,33 @@
 html {
-    font-family: 'VT323', monospace;
+    font-family: '', monospace;
     font-size: 150%;
-    color: #ffffff;
-}
-
-li {
-    display: inline-block;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .avatar {
     height: 200px;
     width: 200px;
-    border-radius: 10%;
-    border: 5px solid #222222;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px 1px grey;
+    margin-top: 25px;
+
 }
 
-h2, h3, h4, h1, p, a, section#latest {
-    margin-left: 40px;
-    margin-right: 40px;
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    width: 100%;
+}
+
+.hardcast {
+    box-shadow: 1px 1px 5px 1px grey;
+    background-color: black;
+    border-radius: 5%;
 }
 
 a {
     text-decoration: none;
-}
-
-.latestProject, .latestBlogPost {
-    margin-bottom: 40px;
-    border: 5px solid #222;
-    border-radius: 1%;
-    background-color: rgb(22, 22, 22, .75);
-
-}
-
-.content {
-
 }
